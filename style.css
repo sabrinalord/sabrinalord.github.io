@@ -209,6 +209,69 @@ margin-top:1em;
 	flex-direction:column;
 }
 
+
+/*--------------- MEDIA QUERIES ---------------*/
+
+
+/* Mobile Portrait Size to Tablet Landscape and Desktop */
+
+
+@media (min-width:650px) {
+	
+.hamburger{
+		display:none;
+	}
+	
+	.desktop-nav{
+		display:flex;
+	}
+	
+	.mobile-nav-overlay{
+		display:none;
+	}
+	
+	.intro-section{
+	min-height:680px;
+	}
+	
+	.section-inner{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+	max-height:500px;
+	display:flex;
+	justify-content: center;
+	}
+	.section-container {
+		flex-direction: row;
+	}
+	.intro-content {
+		 max-width: 50%;
+	}
+	
+	.headshot-container{
+	width: 50%;
+    z-index: 1;
+    right: 0;
+    top: 80px;
+	height: 500px;
+}
+	
+	.hatbox{
+		display:block;
+	}
+	
+	.project{
+		min-width:350px;
+	}
+
+
+}
+
+
 /*--------------- PROJECT SECTION ---------------*/
 
 .project-section{
