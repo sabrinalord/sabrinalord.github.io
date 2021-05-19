@@ -1,8 +1,4 @@
-
-/*STYLING IS FOR MOBILE FIRST THEN MEDIA QUERIES FOR DEKSTOP*/
-
 /*--------------- LAYOUT ---------------*/
-
 
 body {
 	margin: 0 auto;
@@ -208,3 +204,119 @@ margin-top:1em;
     margin: 1.2em;
 	flex-direction:column;
 }
+
+/*--------------- PROJECT SECTION ---------------*/
+
+.project-section{
+	flex-wrap:wrap;
+}
+
+.project{
+	margin:1em;
+	width:50%;
+}
+
+.project-title{
+text-align:center;
+}
+
+.project-tools{
+	display:flex;
+	justify-content:space-between;
+}
+.project-tools img{
+	width: 50px;
+}
+
+.project-image-container{
+	width:100%;
+    height:200px;
+	margin-bottom:2em;
+	background:grey;
+}
+
+.project-info-container{
+	margin:1em;
+}
+
+/*--------------- FOOTER ---------------*/
+
+
+
+footer{
+	    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: .08em;
+	text-transform:uppercase;
+}
+
+/*--------------- MEDIA QUERIES ---------------*/
+
+
+/* Mobile Portrait Size to Tablet Landscape and Desktop */
+
+
+@media (min-width:650px) {
+	
+.hamburger{
+		display:none;
+	}
+	
+	.desktop-nav{
+		display:flex;
+	}
+	
+	.mobile-nav-overlay{
+		display:none;
+	}
+	
+	.intro-section{
+	min-height:680px;
+	}
+	
+	.section-inner{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+	max-height:500px;
+	display:flex;
+	justify-content: center;
+	}
+	.section-container {
+		flex-direction: row;
+	}
+	.intro-content {
+		 max-width: 50%;
+	}
+	
+	.headshot-container{
+	width: 50%;
+    z-index: 1;
+    right: 0;
+    top: 80px;
+	height: 500px;
+}
+	
+	.hatbox{
+		display:block;
+	}
+	
+	.project{
+		min-width:350px;
+	}
+
+
+}
+
+
