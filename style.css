@@ -225,10 +225,10 @@ text-align:center;
 
 .project-tools{
 	display:flex;
-	justify-content:space-between;
 }
 .project-tools img{
-	width: 50px;
+	width: 30px;
+	margin-left:1em;
 }
 
 .project-image-container{
@@ -242,6 +242,10 @@ text-align:center;
 	margin:1em;
 }
 
+.project-links button {
+	padding:1em 1.2em;
+	margin:1em;
+}
 
 /*--------------- FOOTER ---------------*/
 
