@@ -205,6 +205,9 @@ margin-top:1em;
 	flex-direction:column;
 }
 
+
+
+
 /*--------------- PROJECT SECTION ---------------*/
 
 .project-section{
@@ -239,6 +242,7 @@ text-align:center;
 	margin:1em;
 }
 
+
 /*--------------- FOOTER ---------------*/
 
 
@@ -257,6 +261,8 @@ footer a{
     letter-spacing: .08em;
 	text-transform:uppercase;
 }
+
+
 
 /*--------------- MEDIA QUERIES ---------------*/
 
@@ -318,5 +324,3 @@ footer a{
 
 
 }
-
-
