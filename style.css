@@ -211,12 +211,18 @@ margin-top:1em;
 /*--------------- PROJECT SECTION ---------------*/
 
 .project-section{
-	flex-wrap:wrap;
+	display: flex;
+    justify-content: center;
+	
 }
 
 .project{
 	margin:1em;
 	width:50%;
+}
+
+.project-image-container img{
+	width:100%;
 }
 
 .project-title{
