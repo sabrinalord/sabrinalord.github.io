@@ -3,12 +3,23 @@
 
 .bg-purple{
 background:#ae88f4;
-color:white;
 }
 
 .bg-mint{
-background: #ceffbb;
+background: #e0ffd3;
 }
+
+.bg-lilac{
+background:#d4bdff;
+}
+
+
+/*--------------- TYPOGRAPHY ---------------*/
+
+h1{
+	font-size:3em;
+}
+
 /*--------------- LAYOUT ---------------*/
 
 body {
@@ -33,6 +44,10 @@ max-width:1200px;
 
 section{
 	padding:1em;
+}
+
+.section-header{
+	text-align:center;
 }
 
 
@@ -174,9 +189,7 @@ button.hamburger {
 
 /*--------------- TOOLS I KNOW SECTION ---------------*/
 
-.tools{
-	text-align:center;
-}
+
 
 .tools img {
 	width:6rem;
@@ -230,7 +243,7 @@ margin-top:1em;
 }
 
 .project-title{
-text-align:center;
+font-size:2em;
 }
 
 .project-toolsAndlinks{
