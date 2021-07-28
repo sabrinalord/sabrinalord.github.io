@@ -153,6 +153,7 @@ button.hamburger {
 
 
 
+
 .intro-content {
     margin: 2em;
 }
@@ -187,7 +188,69 @@ button.hamburger {
 	
 }
 
-/*--------------- TOOLS I KNOW SECTION ---------------*/
+/*--------------- PROJECT SECTION ---------------*/
+
+.project-card{
+	width:30%;
+	border: 1px solid #dcdcdc;
+	
+}
+
+.project-img-container {
+	height: 200px;
+	overflow:hidden;
+}
+
+.project-img-container img{
+	width:100%;
+}
+
+.project-info-container{
+	margin:0.5em;
+}
+.project-title{
+	text-transform:uppercase;
+}
+
+.project-icons-container{
+	 display: flex;
+    justify-content: flex-end;
+}
+
+.project-link{
+	padding: .5em 1em;
+    border: 1px solid #a34bed;
+    text-decoration: none;
+    margin-left: 1em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.project-link:after{
+	  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #a34bed;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .2s ease;
+}
+
+.project-icon {
+	    height: 1.6rem;
+    margin-right: 1rem;
+    display: block;
+    float: left;
+}
+/*--------------- TOOLS SECTION ---------------*/
 
 
 
@@ -225,49 +288,6 @@ margin-top:1em;
 
 
 
-/*--------------- PROJECT SECTION ---------------*/
-
-.project-section{
-	display: flex;
-    justify-content: center;
-	
-}
-
-.project{
-	margin:1em;
-    padding: 2em;
-}
-
-.project-image-container img{
-	width:100%;
-}
-
-.project-title{
-font-size:2em;
-}
-
-.project-toolsAndlinks{
-	display:flex;
-	justify-content:space-between;
-}
-
-.project-tools{
-	display:flex;
-	 line-height: 2em;
-}
-.project-tools img{
-	margin-left:1em;
-}
-
-
-.project-info-container{
-	margin:1em;
-}
-
-.project-links button {
-	padding:0.8em 1.2em;
-	margin:1em;
-}
 
 /*--------------- FOOTER ---------------*/
 
