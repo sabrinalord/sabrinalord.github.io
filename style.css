@@ -1,22 +1,27 @@
 
-/*--------------- COLOURS ---------------*/
+/*--------------- BACKGROUNDS ---------------*/
 
 
 
-.bg-mint{
-background: #e0ffd3;
+.wave-container{
+	  position: relative;
+  overflow: hidden;
 }
 
-.bg-lilac{
-background:#d4bdff;
+.wave-container > svg {
+  display: block;
 }
-
 
 /*--------------- TYPOGRAPHY & TYPE COLOURS ---------------*/
 
 h1, h2 {
 	color: #FF6565;
 
+}
+
+.section-header {
+font-size:2em;
+margin: 2em 0em;
 }
 
 .big-heading {
@@ -39,21 +44,10 @@ margin-right:auto;
 max-width:1200px;
 }
 
-
 .section-container {
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-		
+margin: 2em;
 }
 
-section{
-	padding:1em;
-}
-
-.section-header{
-	text-align:center;
-}
 
 
 /*--------------- NAVs ---------------*/
@@ -153,12 +147,19 @@ button.hamburger {
 /*--------------- INTRO SECTION ---------------*/
 
 
+.intro-container {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+		
+}
+
+
 
 
 .intro-content {
-    margin: 2em;
+	    max-width: 330px;
 }
-
 
 
 .hatbox{
@@ -184,12 +185,11 @@ button.hamburger {
 	background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    margin: 1em;
-    height: 250px;
+    height: 350px;
 	
 }
 
-/*--------------- PROJECT SECTION ---------------*/
+/*--------------- PROJECT / FUN SECTION ---------------*/
 
 .project-container {
     display: grid;
@@ -262,7 +262,6 @@ border: 1px solid #dcdcdc;
 /*--------------- TOOLS SECTION ---------------*/
 
 
-
 .tools img {
 	width:6rem;
 	height:auto;
@@ -295,8 +294,11 @@ margin-top:1em;
 }
 
 
+/*--------------- FUN SECTION ---------------*/
 
-
+section.fun {
+background:#ffffff;
+}
 
 /*--------------- FOOTER ---------------*/
 
@@ -339,27 +341,12 @@ footer a{
 		display:none;
 	}
 	
-	.intro-section{
-	min-height:670px;
-	}
 	
-	.section-inner{
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-	max-height:500px;
-	display:flex;
-	justify-content: center;
-	}
-	.section-container {
+
+	.intro-container {
 		flex-direction: row;
 	}
-	.intro-content {
-		 max-width: 50%;
-	}
+	
 	
 	.headshot-container{
 	width: 50%;
