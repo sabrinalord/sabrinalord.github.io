@@ -1,15 +1,22 @@
 
+
+body {
+	margin: 0 auto;
+	position:relative;
+	
+}
 /*--------------- BACKGROUNDS ---------------*/
 
 
 
 .wave-container{
-	  position: relative;
-  overflow: hidden;
-}
-
-.wave-container > svg {
-  display: block;
+    background-image: url(images/site_backgrounds/long_white_wave.svg);
+    background-size: cover;
+    position: absolute;
+    z-index: -5;
+    bottom: 0px;
+    width: 100%;
+    height: 100vh;
 }
 
 /*--------------- TYPOGRAPHY & TYPE COLOURS ---------------*/
@@ -155,13 +162,6 @@ button.hamburger {
 }
 
 
-
-
-.intro-content {
-	    max-width: 330px;
-}
-
-
 .hatbox{
 	display: none;
 }
@@ -296,9 +296,7 @@ margin-top:1em;
 
 /*--------------- FUN SECTION ---------------*/
 
-section.fun {
-background:#ffffff;
-}
+
 
 /*--------------- FOOTER ---------------*/
 
@@ -326,6 +324,11 @@ footer a{
 
 /* Mobile Portrait Size to Tablet Landscape and Desktop */
 
+@media (min-width:780px){
+		.intro-container {
+		flex-direction: row;
+	}
+}
 
 @media (min-width:650px) {
 	
@@ -342,15 +345,13 @@ footer a{
 	}
 	
 	
-
-	.intro-container {
-		flex-direction: row;
-	}
+	.intro-content {
+	    margin-right: 2em;
+}
 	
 	
 	.headshot-container{
-	width: 50%;
-    z-index: 1;
+	min-width: 400px;
     right: 0;
     top: 80px;
 	height: 500px;
