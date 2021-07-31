@@ -298,54 +298,7 @@ margin-top:1em;
 
 /*TIMELINE*/
 
-.timeline{
-	position:relative;
-	list-style-type: none;
-}
-.timeline:before {
-	content: '';
-	position: absolute;
-	width: 3px;
-	height: 100%;
-	top: 0;
-	background: white;
-}
 
-.timeline-content {
-	margin-left: 2em;
-    bottom: 30px;
-    position: relative;
-
-}
-
-.timeline .content-inner {
-		max-height:0px;
-	overflow:hidden;
-}
-
-.timeline input[type="radio"]{
-	position:relative;
-	   right:11px;
-}
-
-
-.timeline input[type="radio"]:after {
-    position:absolute;
-   width: 10px;
-        height: 10px;
-        border-radius: 15px;
-        position: relative;
-        background-color: #ecaefb;
-        content: '';
-        display: inline-block;
-        visibility: visible;
-	 display: block;
-        border: 2px solid white;
-}
-
-.timeline input[type='radio']:checked:after {
- background-color: #ffffff;
-}
 /*--------------- FOOTER ---------------*/
 
 
