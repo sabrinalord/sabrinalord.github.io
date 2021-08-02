@@ -266,34 +266,33 @@
 		<h2 class="section-header">Experience</h2>
 
 		
-			<div class = "experience-container">
+			<div class = "timeline-container">
 				
-				<div role="tablist" aria-label="Experience"> 
+				<div role="tablist" class="experience-list" aria-label="Experience"> 
 					
-<!--
-					<button id="tab-1" role="tab" aria-selected="false" aria-controls="panel-1" class="experience-button"><span>2020</span></button>
-					<button id="tab-2" role="tab" aria-selected="false" aria-controls="panel-2" class="experience-button"><span>2019</span></button>
-					<button id="tab-3" role="tab" aria-selected="false" aria-controls="panel-3" class="experience-button"><span>2019</span></button>
--->
-					
-					
-                    <label for="radio-1">
-						<input type="radio" id="radio-1" onclick="ShowHideExperience();" name="radio-timeline" value="2021" checked>
-						<span class = "year">2021</span>
+					<label class = "radio-container" for="radio-1">
+						<input type="radio" id="radio-1" onclick="ShowHideExperience()" name="radio-timeline" value="2021" checked >
+						<span class = "custom-bullet"></span>
+							<span class = "year">2021</span>
 					</label>
-					<label for="radio-2">
+					
+						<label class = "radio-container" for="radio-2">
 						<input type="radio" id="radio-2" onclick="ShowHideExperience()" name="radio-timeline" value="2020" >
+						<span class = "custom-bullet"></span>
 						<span class = "year">2020</span>
 					</label>
-					<label for="radio-3">
-						<input type="radio" id="radio-3" onclick="ShowHideExperience()" name="radio-timeline" value="2019" >
+					
+					   <label class = "radio-container" for="radio-3">
+						<input type="radio" id="radio-3" onclick="ShowHideExperience();" name="radio-timeline" value="2019"  >
+						<span class = "custom-bullet"></span>
 						<span class = "year">2019</span>
 					</label>
 				</div>
 
-				<div class="job_panel_container">
+			   
+				<div class = "panel-container">
 					
-					<div class = "hidden" id="panel-1" role="experiencepanel" class="jobPanel">
+					<div style="position:absolute;"  id="panel-1" role="experiencepanel" class="job-panel">
 					<h3>Webinar producer at Infopro Digital</h3>
 						<div class = "experience-details">
 						<ul>
@@ -303,7 +302,7 @@
 						</ul>
 						</div>
 					</div>
-					<div class = "hidden" id="panel-2" role="experiencepanel" class="jobPanel">
+					<div class = "hidden job-panel" id="panel-2" role="experiencepanel">
 					<h3>UX at General Assembly</h3>
 						<div class = "experience-details">
 						<ul>
@@ -313,7 +312,7 @@
 						</ul>
 						</div>
 					</div>
-					<div class = "hidden" id="panel-3" role="experiencepanel" class="jobPanel">
+					<div class = "hidden job-panel"   id="panel-3" role="experiencepanel">
 					<h3>Freelancer at freelancer</h3>
 						<div class = "experience-details">
 						<ul>
@@ -323,8 +322,8 @@
 						</ul>
 						</div>
 					</div>
-					
-				</div>
+			</div>		
+				
 	</div>
 
 	</div>

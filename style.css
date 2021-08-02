@@ -298,13 +298,97 @@ margin-top:1em;
 
 /*TIMELINE*/
 
-.hidden {
-	display:none;
+.timeline-container {
+	position:relative;
+	margin-top:5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.experience-list{
+	display: flex;
+	    margin-bottom: 3em;
 }
 
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.radio-container{
+	position:relative;
+	width: 6em;
+
+}
+
+.panel-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+label.radio-container:after {
+ content: "";
+    height: 2px;
+    width: inherit;
+    position: absolute;
+	    top: 6px;
+background:#ffffff;
+}
+
+.custom-bullet{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+ border: 1px solid white;
+	background:#ebb8fb;
+	z-index: 1;
+}
+
+.hidden {
+	  visibility: hidden;
+	position:absolute;
+}
+.radio-container input:checked ~ .custom-bullet {
+  background-color: #ffffff;
+}
+
+.custom-bullet:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.experience-list > label:nth-child(3):after {
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(255,255,255,0) 100%);
+}
+
+.year {
+	bottom: 0.5em;
+    position: absolute;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+.job-panel {
+    padding: 1em;
+    background: #ffffffd6;
+    border-radius: 8%;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    line-height: 20px;
+	margin-top:3em;
+}
 
 /*--------------- FOOTER ---------------*/
-
 
 
 footer{
@@ -333,6 +417,43 @@ footer a{
 		.intro-container {
 		flex-direction: row;
 	}
+/*	timeline section*/
+	
+	.timeline-container{
+    justify-content: unset;
+    width: 700px;
+    align-items: unset;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+		flex-direction: row;
+	}
+
+	.experience-list {
+    flex-direction: column;
+		width: 150px;
+		margin-right: 3em;
+}
+	.radio-container {
+    width: 0;
+    height: 6em;
+}
+	
+	.panel-container {
+    min-width: 700px;
+    max-width: 750px;
+	}
+	label.radio-container:after {
+    width: 2px;
+    height: inherit;
+    left: 7px;
+    top: 0px;
+}
+	.year{
+		margin-left: 1.5em;
+		bottom: unset;
+	}
+	
 }
 
 @media (min-width:650px) {
