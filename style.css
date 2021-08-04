@@ -189,26 +189,56 @@ button.hamburger {
 	
 }
 
-/*--------------- PROJECT / FUN SECTION ---------------*/
+/*--------------- PROJECT SECTION ---------------*/
 
 .project-container {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 }
 
 .project-card{
 border: 1px solid #dcdcdc;
     background: #ffffff;
     margin: 0.5em;
-	    max-width: 350px;
 }
 
 .project-img-container {
 	height: 200px;
 	overflow:hidden;
+	background-size:cover;
+	background-position:center;
 }
+
+	/*--------------- PROJECT CARD BG IMAGES---------------*/
+
+
+#project-card1 .project-img-container {
+	background-image:url(images/projects/country_app.png);
+}
+
+#project-card2 .project-img-container {
+	background-image:url(images/projects/country_app.png)
+}
+
+#project-card3 .project-img-container  {
+	background-image:url(images/projects/country_app.png)
+}
+
+#project-card4 .project-img-container  {
+	background-image:url(images/projects/8ball.png)
+}
+
+#project-card5 .project-img-container  {
+	background-image:url(images/projects/pacman.png)
+}
+
+#project-card6 .project-img-container {
+	background-image:url(images/projects/book_app-01-1.png)
+}
+
+
 
 .project-img-container img{
 	width:100%;
@@ -320,6 +350,7 @@ margin-top:1em;
 .radio-container{
 	position:relative;
 	width: 6em;
+	cursor: pointer;
 
 }
 
@@ -388,6 +419,35 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(255,255,255,0) 1
 	margin-top:3em;
 }
 
+
+/*--------------- DESIGN CAROUSEL---------------*/
+
+.carousel-container {
+  max-width: 450px;
+  position: relative;
+  margin: auto;
+	
+}
+
+
+.slide img {
+	width:100%;
+}
+
+.slick-arrow {
+    position:absolute;
+    z-index:10;
+    width:50px;
+    margin:0.5em;
+    top:42%;
+}
+
+.slick-prev{
+	left:0;
+}
+.slick-next{
+	right:0;
+}
 /*--------------- FOOTER ---------------*/
 
 
@@ -452,6 +512,21 @@ footer a{
 	.year{
 		margin-left: 1.5em;
 		bottom: unset;
+	}
+	
+	/*	design section*/
+
+	.design-project {
+    display: flex;
+}
+	.design-project-images{
+		width:60%;
+	}
+	.carousel-container {
+		max-width: unset;}
+	
+	.design-info-container{
+		margin-right:2em;
 	}
 	
 }
