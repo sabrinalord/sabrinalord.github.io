@@ -188,6 +188,8 @@ button.hamburger {
 .hatbox img {
     height: 5rem;
     margin: 0.8em;
+	cursor:pointer;
+	z-index:10;
 	
 }
 

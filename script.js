@@ -10,9 +10,14 @@ hamburger.addEventListener('click', event => {
 		mobileNavOverlay.classList.toggle('mobile-nav-active')
 	})
 
+
+//DRAGGABLE HATS
+
+ $( function() {
+    $( ".draggable" ).draggable();
+  } );
 	
 //TIMELINE
-
 
 function ShowHideExperience(){
     document.getElementById('panel-1').style.visibility = document.getElementById('radio-1').checked ?
@@ -25,7 +30,6 @@ function ShowHideExperience(){
 // DESIGN CAROUSEL
 
 $(document).ready(function(){
-
   $('.carousel-slider1').slick({
   infinite: true,
  prevArrow:"<img class='a-left control-c prev slick-prev' src='images/icons/left-chevron.png'>",
@@ -38,8 +42,5 @@ $(document).ready(function(){
     nextArrow:"<img class='a-right control-c next slick-next' src='images/icons/right-chevron.png'>"
   });
 	
-	
-	 
-
 });
 
