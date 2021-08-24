@@ -233,7 +233,7 @@ border: 1px solid #dcdcdc;
 
 
 #project-card1 .project-img-container {
-	background-image:url(images/projects/country_app.png);
+	background-image:url(images/projects/countryApp_screenshot.png);
 }
 
 #project-card2 .project-img-container {
@@ -249,7 +249,7 @@ border: 1px solid #dcdcdc;
 }
 
 #project-card5 .project-img-container  {
-	background-image:url(images/projects/pacman.png)
+	background-image:url(images/projects/pacman-screenshot.png)
 }
 
 #project-card6 .project-img-container {

@@ -13,7 +13,7 @@ hamburger.addEventListener('click', event => {
 
 //DRAGGABLE HATS
 
- $( function() {
+ $(function() {
     $( ".draggable" ).draggable();
   } );
 	
