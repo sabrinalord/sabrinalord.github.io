@@ -300,6 +300,10 @@ border: 1px solid #dcdcdc;
 	color:white;
 }
 
+img.project-icon:hover {
+    filter: brightness(50);
+}
+
 .project-link:after{
 	  content: "";
     position: absolute;
