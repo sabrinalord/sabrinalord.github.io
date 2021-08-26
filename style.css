@@ -220,8 +220,7 @@ border: 1px solid #dcdcdc;
     background: #ffffff;
     margin: 0.8em;
 	width: 350px;
-    height: 500px;
-    position: relative;
+    min-height: 450px;
 }
 
 .project-img-container {
@@ -274,10 +273,8 @@ border: 1px solid #dcdcdc;
 .project-icons-container{
 	    display: flex;
     justify-content: flex-end;
-    position: absolute;
-    bottom: 0px;
     margin: 1.5em 1em;
-    right: 0px;
+
 }
 
 .project-link{
