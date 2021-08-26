@@ -224,12 +224,15 @@ border: 1px solid #dcdcdc;
 }
 
 .project-img-container {
-	height: 200px;
+	height: 240px;
 	overflow:hidden;
 	background-size:cover;
 	background-position:center;
 }
 
+.project-img-container:hover {
+    filter: saturate(2.5);
+}
 	/*--------------- PROJECT CARD BG IMAGES---------------*/
 
 
@@ -279,15 +282,21 @@ border: 1px solid #dcdcdc;
 
 .project-link{
 	padding: .5em 1em;
-    border: 1px solid #a34bed;
-    text-decoration: none;
+      text-decoration: none;
     margin-left: 1em;
     border-radius: 5px;
     text-transform: uppercase;
     display: inline-block;
     position: relative;
     overflow: hidden;
+    background: #e5dfff;
+    z-index: 1;
+    color: black;
 
+}
+.project-link:hover {
+	   background: #7a5cf8;
+	color:white;
 }
 
 .project-link:after{
