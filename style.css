@@ -298,11 +298,13 @@ border: 1px solid #dcdcdc;
 .project-link:hover {
 	   background: #7a5cf8;
 	color:white;
+	
 }
 
-img.project-icon:hover {
-    filter: brightness(50);
+.project-link:hover img.project-icon {
+  filter: brightness(50);
 }
+
 
 .project-link:after{
 	  content: "";
