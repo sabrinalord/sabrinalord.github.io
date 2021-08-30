@@ -189,8 +189,7 @@ button.hamburger {
 }
 
 .intro-content p {
-	    max-width: 600px;
-	font-weight: 500;
+	    max-width: 500px;
     font-size: 1.4em;
     color: var(--not-quite-black);
 }
