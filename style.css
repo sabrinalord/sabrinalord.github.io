@@ -138,6 +138,11 @@ svg.svg-inline--fa.fa-instagram.fa-w-14 {
 	
 }
 
+.mobile-nav-overlay svg.svg-inline--fa.fa-instagram.fa-w-14 {
+	    left: 20px;
+    position: relative;
+}
+
 .mobile-nav-overlay li {
 	padding:.5em;
 	margin:.5em;
