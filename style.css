@@ -34,9 +34,6 @@ background: linear-gradient(180deg, #ffeeef 3%, #f8e2fd 48%, #ecaefb 80%);
 }
 
 
-p {
-	font-size: 1.1em;
-}
 h1, h2 {
 	color: var(--primary-heading);
     font-weight: 300;
