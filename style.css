@@ -42,6 +42,11 @@ h1, h2 {
     font-weight: 300;
 }
 
+h3 {
+	    font-weight: 300;
+
+}
+
 .section-header {
 font-size:2em;
     margin: 2em 0em 2em 2em;
@@ -90,7 +95,6 @@ nav a{
     color: var(--nav-links);
     margin-left: 5em;
     letter-spacing: 0.1em;
-    font-weight: 600;
 }
 
 nav a:hover{
@@ -101,8 +105,8 @@ nav a:hover{
 .logo{
 	padding-left:1em;
 	  letter-spacing: 0.1em;
-    font-weight: 600;
 	    color: var(--nav-links);
+	   font-weight: 400;
 
 }
 
@@ -222,6 +226,7 @@ cursor:grabbing}
     background-position: center center;
     background-repeat: no-repeat;
     height: 350px;
+	transition: all 3s cubic-bezier(0.26, 1.48, 0.47, 0.96);
 	
 }
 
@@ -632,7 +637,7 @@ footer a{
 	min-width: 400px;
     right: 0;
     top: 80px;
-	height: 500px;
+	height: 600px;
 }
 	
 	.hatbox{
