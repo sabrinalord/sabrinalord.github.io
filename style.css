@@ -83,6 +83,7 @@ nav{
 nav a{
 	text-decoration:none;
 	color:black;
+	margin-left:5em;
 }
 
 nav a:hover{
@@ -94,7 +95,9 @@ nav a:hover{
 	padding-left:1em;
 }
 
-
+svg.svg-inline--fa.fa-instagram.fa-w-14 {
+	width:25px;
+}
 
 /*--------------- MOBILE NAV ---------------*/
 
@@ -140,12 +143,6 @@ nav a:hover{
 	padding-right:4em;
 }
 
-
-
-.desktop-nav li {
-	margin-left:5em;
-		
-}
 
 /*--------------- HAMBURGER ---------------*/
 
