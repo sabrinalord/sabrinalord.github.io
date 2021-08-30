@@ -7,6 +7,8 @@
 <link rel = "stylesheet" href = "style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="path/to/instafeed.min.js"></script>
+
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
 
@@ -101,7 +103,7 @@
 							<div class="project-info-container">
 								<h3 class="project-title">Country App</h3>
 								<div class="project-details">
-									<p>Built with javascript using the REST countries API. You can filter countries by population size, language or region. The map lights up to display the region and shows a card of stats about those countries.</p>
+									<p>A javascript country app using the REST countries API. Filter countries by population size, language or region. The map highlights to display the region and shows a card of statistics.</p>
 								<div class = "project-icons-container">
 									<a class = "project-link" href="https://github.com/sabrinalord/country-app.git" target="_blank">
 									<img alt ="Github" class = "project-icon" src="images/icons/github.png">
@@ -395,7 +397,19 @@
 	
 	
 
+	<section class = "about">
 	
+<div id="instafeed"></div>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+      accessToken: 'IGQVJYSTc1aEhsR1ZA5bGdpc3hSeWtnRVBRdXBKNDVsN2hfeVkzdFRHQzgwSTlEdzFQY2liSTRRa2hpNEM1VTJxZAWpqalNEMUhQUTRxX0U3VDNVNGp3WnBYdnBOdFZAOVjk4ZAElIcUlqZAlVUQm9wckVTSAZDZD'
+    });
+    feed.run();
+</script>
+	
+	
+	</section>
 
 	
 	
