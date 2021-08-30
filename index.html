@@ -9,8 +9,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
-
+<!---------FONT -------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+	
+<!---------END FONT ------->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -69,11 +73,8 @@
 		<div class = "section-container intro-container">
 				<div class = "intro-content">
 				<h1 class = "big-heading">Hi, I'm Sabrina</h1>
-				<p>With 5 years experience in multimedia and technology, my skills include front-end development, UI design and UX research.
-					<br>
-					I enjoy designing and coding and have commercial experience. 
-					<br>
-			Whichever hat I’m wearing, my goal is to create original and engaging user experiences.</p>
+				<p>I'm a front-end developer based in London, England. I enjoy creating fun and useful things with code. </p>
+				<p>Part designer, part coder - whichever hat I’m wearing, my goal is to create original and engaging user experiences.</p>
 
 					<div class = "hatbox">
 					<img class="draggable" src ="images/hats/tophat.png" >
@@ -260,7 +261,13 @@
 			    <div class = "project-info-container design-info-container">
 				<h3><span class = "project-title">3D modelling a city app</span></h3>
 				<div class = "design-details">
-				<div class = "project-details"><p>I designed a city app using Blender. The app did this and this. I learned XYZ.</p></div>
+					
+					<p><strong>The challenge:</strong> To undergo a 48 hour design sprint, wireframing and designing a city app from scratch. <br>
+					</p>
+						<p><strong>Method: </strong>For this project I used CAD software (Blender) to construct a 3D city scape of Kuala Lumpur. I imported satellite map and terrain data from Google, and used this as a base. I then applied a high rise texture on the buildings. <br>
+					The app would let you message friends that are nearby, suggest a venue, and tell you how long it would take both of you to get there. </p>
+							<p><strong>Tools: </strong>Blender, Figma, UX/UI design</p>
+		
 				</div>
 				</div>
 			
@@ -283,12 +290,21 @@
 				<h3><span class = "design-title">Designing a reading app using UX research principles</span></h3>
 				
 					<div class = "design-details">
-				<div class = "project-details"><p>I designed a reading app by interviwing X number of participants, user interviews, affinity mapping and prototyping.</p>
+				<div class = "project-details"><p><strong>The challenge:</strong> To develop my UX research and design skills by creating a marketable, user-friendly app. <br>
+					</p>
+					<p>
+					<strong>The problem: </strong> Goodreads is the leading book app, but it’s UX feels clunky and outdated.
+
+</p>
+						<p><strong>Method: </strong>For this case study I interviewed over 50 people and used UX principles to design a reading app from start to finish.</p>
+					
+						<p><strong>Tools: </strong>Wireframing, affinity mapping, user-testing, competitor analysis, Figma, illustrator, prototyping</p>
+					
 							<div class = "project-icons-container">
-								<a class = "project-link" href="">
+								<a class = "project-link" href="https://sabrinalord.net/app-for-book-lovers/" target="_blank">
 									Case study
 									</a>
-								<a class = "project-link" href="">
+								<a class = "project-link" href="https://www.figma.com/proto/qsRL6H72xNmUn9vrGIuvFF/Book-App?node-id=125%3A5866&scaling=scale-down" target="_blank">
 									Prototype
 									</a>
 								</div>
@@ -325,7 +341,7 @@
 	
 <section class="experience">
 	<div class = "section-container">
-		<a  id="experience"><h2 class="section-header">Experience</h2></a>
+		<a  id="experience"><h2 id="header-experience" class="section-header">Experience</h2></a>
 		
 		
 			<div class = "timeline-container">
@@ -350,25 +366,40 @@
 						<span class = "year">2019</span>
 					</label>
 					
+								   <label class = "radio-container" for="radio-4">
+						<input type="radio" id="radio-4" onclick="ShowHideExperience();" name="radio-timeline" value="2018"  >
+						<span class = "custom-bullet"></span>
+						<span class = "year">2018</span>
+					</label>
+					
+					
+						   <label class = "radio-container" for="radio-5">
+						<input type="radio" id="radio-5" onclick="ShowHideExperience();" name="radio-timeline" value="2016"  >
+						<span class = "custom-bullet"></span>
+						<span class = "year">2016</span>
+					</label>
+					
 				</div>
 
 			   
 				<div class = "panel-container">
 					
 					<div style="position:absolute;"  id="panel-1" role="experiencepanel" class="job-panel">
-					<h3>Webinar producer at Infopro Digital</h3>
+					<h3>Webinar producer and working with UX/UI team at Infopro Digital</h3>
 						<div class = "experience-details">
-						<p>I'm currently working at a B2B financial publication company as a webinar producer. During the last year I have followed my passion for coding and have been shadowing our UX/UI development team, learning how to make version control updates to Infopro's brand websites.</p>
-							
-						<h4>Webinar producer</h4>
+						<p>I am currently working as a webinar producer at Infopro Digital where I have been since 2016. My roles include: 
+							<ul>
+							<li>Building registration landing pages using on24</li>
+							<li>Making HTML and CSS updates depending on client needs.</li>
+							<li>Implementing user research methods including surveys, user-interviews and competitor analysis to identify ways to increase registration conversion. </li>
+								
 
-						<ul>
-						<li>Webinar broadcasting and setting up landing pages for companies such as IBM, Eurex and Google.</li>
-						<li>Implementing user research methods including, surveys, user-interviews and competitor analysis to make sure our landing pages are optimised.  </li>
-						<li>Making CSS and HTML updates to registration pages. Adding features such as pop up user biographies.</li>
-						</ul>
+				
+							</ul>
 							
-						<h4>UX/UI team shadowing</h4>
+							<h4>UX/UI Experience</h4>
+							For the last year I have been shadowing our UX/UI development team making updates to our live brand sites.</p>
+				
 							<ul>
 							<li>Making version controlled theme updates to our drupal based brand sites. </li>
 							<li>Using terminal to add, commit and push changes for prod and dev.</li>
@@ -376,14 +407,13 @@
 								<li>Editing and including sprite images for use on brand websites</li>
 								<li>Updated and deployed the theme for <a href ="https://events.risk.net/cro-club" target="_blank">Risk Cro Club</a></li>
 								
-							
 							</ul>
 						</div>
 					</div>
 					<div class = "hidden job-panel" id="panel-2" role="experiencepanel">
 					<h3>UX design course at General Assembly</h3>
 						<div class = "experience-details">
-						<p>In February 2020 I completed an immersive UX course at General Assembly. The course was structured from Monday to Saturday, 9am to 6pm and consisted of 3 design sprints leading up to a final project and presentation</p>
+						<p>I completed an immersive UX course at General Assembly. The course was structured from Monday to Saturday, 9am to 6pm and consisted of 3 design sprints leading up to a final project and presentation</p>
 						<ul>
 						<li>Competitor research and analysis</li>
 						<li>Affinity mapping to organise data</li>
@@ -394,10 +424,23 @@
 						</ul>
 						</div>
 					</div>
+					
+					
+					
 					<div class = "hidden job-panel"   id="panel-3" role="experiencepanel">
+					<h3>Promoted to Webinar Producer at Infopro Digital</h3>
+						<div class = "experience-details">
+						<ul>
+						<li>After learning how to code through tutorials I found that I could dynamically improve our on24 registration pages.</li>
+						<li>Made CSS and HTML updates to registration pages. Adding features such as pop up user biographies.</li>
+						<li>I set up landing pages for companies such as IBM, Eurex and Google and saw our registration conversion improve from 30% to 60%</li>
+						</ul>
+						</div>
+					</div>
+					<div class = "hidden job-panel"   id="panel-4" role="experiencepanel">
 					<h3>Freelance web designer</h3>
 						<div class = "experience-details">
-						<p>Creating custom wordpress websites for small businesses and non-profits such as Limehut(carribean street food) and Girls on Film LDN. </p>
+						<p>As a side-project I started creating custom wordpress websites for small businesses and non-profits such as <a href="http://limehut.co.uk/" target="_blank">Limehut </a>and <a href="https://www.girlsonfilmldn.co.uk/" target="_blank">Girls on Film LDN</a>. </p>
 						<ul>
 						<li>Wireframing and testing</li>
 						<li>Installing wordpress themes, creating custom css changes</li>
@@ -406,6 +449,21 @@
 						</div>
 					</div>
 					
+			
+					
+						<div class = "hidden job-panel"   id="panel-5" role="experiencepanel">
+					<h3>Started working at Infopro Digital as a Webinar Coordinator</h3>
+						<div class = "experience-details">
+						<p> I was hired in an admin role at Incisive Media(now Infopro). The company is a B2B financial publication that houses several brands including Risk.net, Insurance Post and WatersTechnology.</p>
+						<ul>
+						<li>Booking in and scheduling webinars</li>
+						<li>Setting up basic registration forms using pre-existing templates</li>
+							<li>Made small CSS updates</li>
+							<li>It was here that I became interested in coding and I began learning to code through code academy.</li>
+						</ul>
+						</div>
+					</div>
+		
 	
 			</div>		
 				

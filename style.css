@@ -1,6 +1,16 @@
 
-/*--------------- BACKGROUNDS ---------------*/
 
+body {
+	margin: 0 auto;
+	font-family: 'Jost', sans-serif;
+	position:relative;
+	background: #6081ff;
+background: linear-gradient(180deg, #ffeeef 3%, #f8e2fd 48%, #ecaefb 80%);
+	
+}
+
+
+/*--------------- BACKGROUNDS ---------------*/
 
 
 .wave-container{
@@ -17,22 +27,24 @@
 
 
 :root{
-	--primary-coral:#FF6565;
+	--primary-heading:#f75454;
+	--nav-links:#3e3e3e;
 	--secondary-purple:#a34bed;
+	--not-quite-black:#3e3e3e;
 }
 
 
-body {
- font-family: 'Noto Sans JP', sans-serif;
+p {
+	font-size: 1.1em;
 }
-
 h1, h2 {
-	color: var(--primary-coral);
+	color: var(--primary-heading);
+    font-weight: 300;
 }
 
 .section-header {
 font-size:2em;
-margin: 2em 0em;
+    margin: 2em 0em 2em 2em;
 }
 
 .big-heading {
@@ -41,13 +53,6 @@ margin: 2em 0em;
 
 /*--------------- LAYOUT ---------------*/
 
-body {
-	margin: 0 auto;
-	position:relative;
-	background: rgb(255,238,239);
-background: linear-gradient(180deg, rgba(255,238,239,1) 3%, rgba(227,226,253,1) 48%, rgba(236,174,251,1) 80%);
-	
-}
 
 .container{
 margin-left:auto;
@@ -81,9 +86,11 @@ nav{
 }
 
 nav a{
-	text-decoration:none;
-	color:black;
-	margin-left:5em;
+    text-decoration: none;
+    color: var(--nav-links);
+    margin-left: 5em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
 }
 
 nav a:hover{
@@ -93,6 +100,10 @@ nav a:hover{
 
 .logo{
 	padding-left:1em;
+	  letter-spacing: 0.1em;
+    font-weight: 600;
+	    color: var(--nav-links);
+
 }
 
 svg.svg-inline--fa.fa-instagram.fa-w-14 {
@@ -173,8 +184,11 @@ button.hamburger {
 		
 }
 
-intro-content p {
+.intro-content p {
 	    max-width: 600px;
+	font-weight: 500;
+    font-size: 1.4em;
+    color: var(--not-quite-black);
 }
 
 
@@ -189,10 +203,14 @@ intro-content p {
 .hatbox img {
     height: 5rem;
     margin: 0.8em;
-	cursor:pointer;
+	cursor:grab;
 	z-index:10;
 	
+	
 }
+
+.hatbox img:active{
+cursor:grabbing}
 
 .headshot-container {
 	background-image: url("images/headshot.jpg");
@@ -223,8 +241,8 @@ intro-content p {
     width: 360px;
     min-height: 500px;
     border-radius: 10px;
-    height: 350px;
     overflow: hidden;
+	padding:0.4em;
 }
 
 .project-img-container {
@@ -441,6 +459,9 @@ background:#ffffff;
 background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(255,255,255,0) 100%);
 }
 
+.experience-details li {
+    margin-bottom: .5em;}
+
 .year {
 	bottom: 0.5em;
     position: absolute;
@@ -516,6 +537,7 @@ footer a{
     font-weight: 700;
     letter-spacing: .08em;
 	text-transform:uppercase;
+	color:#fff;
 }
 
 
