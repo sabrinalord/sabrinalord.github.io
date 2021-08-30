@@ -46,7 +46,7 @@ h3 {
 
 .section-header {
 font-size:2em;
-    margin: 2em 0em 2em 2em;
+    margin: 2em 0em;
 }
 
 .big-heading {
@@ -557,6 +557,11 @@ footer a{
 @media (min-width:780px){
 		.intro-container {
 		flex-direction: row;
+	}
+	
+	.section-header{
+	margin: 2em 0em 2em 2em;
+
 	}
 /*	timeline section media query*/
 	
