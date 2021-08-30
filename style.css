@@ -305,6 +305,7 @@ width: 370px;
 	    display: flex;
     justify-content: flex-end;
     margin: 1.5em 1em;
+	    align-items: center;
 
 }
 
@@ -316,7 +317,6 @@ width: 370px;
     text-transform: uppercase;
     display: inline-block;
     position: relative;
-    overflow: hidden;
     background: #e5dfff;
     z-index: 1;
     color: black;
