@@ -173,6 +173,10 @@ button.hamburger {
 		
 }
 
+intro-content p {
+	    max-width: 600px;
+}
+
 
 .hatbox{
 	display: none;
