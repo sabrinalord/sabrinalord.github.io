@@ -460,7 +460,7 @@ background:#ffffff;
   display: none;
 }
 
-.experience-list > label:nth-child(3):after {
+.experience-list > label:nth-child(5):after {
     background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(255,255,255,0) 100%);
 }
