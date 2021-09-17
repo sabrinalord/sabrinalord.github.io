@@ -173,6 +173,7 @@ button.hamburger {
 	border: none;
     background: none;
 	padding:2em 3em;
+	cursor:pointer;
 }
 
 .burger-line{
