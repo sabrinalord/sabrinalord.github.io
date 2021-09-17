@@ -134,6 +134,7 @@ svg.svg-inline--fa.fa-instagram.fa-w-14 {
 	transform-origin:right;
 	opacity:0;
 	right:0px;
+	z-index:10;
 
 	
 }
