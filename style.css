@@ -61,7 +61,7 @@ font-size:2em;
 /*--------------- LAYOUT ---------------*/
 
 
-.container{
+.site-wrapper{
 margin-left:auto;
 margin-right:auto;
 max-width:1300px;
@@ -240,7 +240,7 @@ cursor:grabbing}
 
 /*--------------- PROJECT SECTION ---------------*/
 
-.project-container {
+#project-container{
       display: flex;
     flex-wrap: wrap;
     justify-content: center;

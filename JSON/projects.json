@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "title": "Country App",
+        "description": "A javascript country app using the REST countries API. Filter countries by population size, language or region. The map highlights to display the region and shows a card of statistics.",
+        "imageDescription": "A screenshot of Sabrina's javascript country app",
+        "siteLink": "https://sabrinalord.github.io/country-app/",
+        "codeLink": "https://github.com/sabrinalord/country-app.git"
+    },
+    {
+        "id": "2",
+        "title": "Activity Cat",
+        "description": "An activity app using Bored API. Tell activity cat how many people there are and how much you would like to spend. The cat will reply with an idea.",
+        "imageDescription": "A screenshot of the activity cat app using fetch and bored api",
+        "siteLink": "https://sabrinalord.github.io/activity-app/",
+        "codeLink": "https://github.com/sabrinalord/activity-app.git"
+    },
+    {
+        "id": "3",
+        "title": "To do App",
+        "description": "A mobile first, to do app built with React. Users can add new tasks, mark them as completed and remove tasks from the list.",
+        "imageDescription": "A screenshot of a React 'To Do' app",
+        "siteLink": "https://sabrinalord.github.io/todo-2/",
+        "codeLink": "https://github.com/sabrinalord/todo-2.git"
+    },
+    {
+        "id": "4",
+        "title": "Magic 8 Ball",
+        "description": "An interactive, responsive magic 8-ball with updated responses. Built with javascript and jQuery.",
+        "imageDescription": "A screenshot of Sabrina's javascript interactive magic 8 ball",
+        "siteLink": "https://sabrinalord.github.io/magic8ball/",
+        "codeLink": "https://github.com/sabrinalord/magic8ball.git"
+    },
+    {
+        "id": "5",
+        "title": "Pacman",
+        "description": "A pacman game made with javascript. There is a scoreboard, bonus points and the ghosts get scared when pacman eats an apple.",
+        "imageDescription": "A screenshot of Sabrina's javascript pacman game",
+        "siteLink": "https://sabrinalord.github.io/pacman/",
+        "codeLink": "https://github.com/sabrinalord/pacman.git"
+    },
+    {
+        "id": "6",
+        "title": "Murder Mystery Invitation",
+        "description": "A website invitation for a murder mystery Halloween party. Made with CSS3.",
+        "imageDescription": "A screenshot of an interactive CSS3 envelope for a 1920s murder mystery party invitation.",
+        "siteLink": "https://sabrinalord.github.io/murder-mystery/",
+        "codeLink": "https://github.com/sabrinalord/murder-mystery.git"
+    }
+]
