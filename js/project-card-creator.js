@@ -31,11 +31,11 @@ const addProjectCardToPage = (project) => {
                 <div class="project-details">
                     <p>${project.description}</p>
                     <div class = "project-icons-container">
-                        <a role="button" class = "project-link" href="${project.siteLink}" target="_blank">
+                        <a role="button" class = "project-link" href="${project.codeLink}" target="_blank">
                         <img alt ="Github" class = "project-icon" src="images/icons/github.png">
                         Code
                         </a>
-                        <a role="button"  class = "project-link" href="${project.codeLink}"  target="_blank">
+                        <a role="button"  class = "project-link" href="${project.siteLink}"  target="_blank">
                         Live
                         </a>
                     </div>

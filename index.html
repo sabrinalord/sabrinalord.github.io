@@ -180,44 +180,38 @@
 						<a  id="experience"><h2 id="header-experience" class="section-header">Experience</h2></a>
 						<div class = "timeline-container">
 							<div role="tablist" class="experience-list" aria-label="Experience"> 
-								<label class = "radio-container" for="radio-1">
-									<input type="radio" id="radio-1" onclick="ShowHideExperience()" name="radio-timeline" value="2022" checked >
+								<label class = "radio-container" for="radio-2022">
+									<input type="radio" id="radio-2022" onclick="ShowHideExperience()" name="radio-timeline" value="2022" checked >
 									<span class = "custom-bullet"></span>
 									<span class = "year">2022</span>
 								</label>
-								<label class = "radio-container" for="radio-1">
-									<input type="radio" id="radio-1" onclick="ShowHideExperience()" name="radio-timeline" value="2021" checked >
+								<label class = "radio-container" for="radio-2021">
+									<input type="radio" id="radio-2021" onclick="ShowHideExperience()" name="radio-timeline" value="2021" >
 									<span class = "custom-bullet"></span>
 									<span class = "year">2021</span>
 								</label>
-								
-								<label class = "radio-container" for="radio-2">
-									<input type="radio" id="radio-2" onclick="ShowHideExperience()" name="radio-timeline" value="2020" >
-									<span class = "custom-bullet"></span>
-									<span class = "year">2020</span>
-								</label>
-								
-								<label class = "radio-container" for="radio-3">
-									<input type="radio" id="radio-3" onclick="ShowHideExperience();" name="radio-timeline" value="2019"  >
+							
+								<label class = "radio-container" for="radio-2019">
+									<input type="radio" id="radio-2019" onclick="ShowHideExperience();" name="radio-timeline" value="2019"  >
 									<span class = "custom-bullet"></span>
 									<span class = "year">2019</span>
 								</label>
 								
-								<label class = "radio-container" for="radio-4">
-									<input type="radio" id="radio-4" onclick="ShowHideExperience();" name="radio-timeline" value="2018"  >
+								<label class = "radio-container" for="radio-2018">
+									<input type="radio" id="radio-2018" onclick="ShowHideExperience();" name="radio-timeline" value="2018"  >
 									<span class = "custom-bullet"></span>
 									<span class = "year">2018</span>
 								</label>
 								
-								<label class = "radio-container" for="radio-5">
-									<input type="radio" id="radio-5" onclick="ShowHideExperience();" name="radio-timeline" value="2016"  >
+								<label class = "radio-container" for="radio-2016">
+									<input type="radio" id="radio-2016" onclick="ShowHideExperience();" name="radio-timeline" value="2016"  >
 									<span class = "custom-bullet"></span>
 									<span class = "year">2016</span>
 								</label>
 							</div>
 
 							<div class = "panel-container">
-								<div style="position:absolute;"  id="panel-1" role="experiencepanel" class="job-panel">
+								<div style="position:absolute;"  id="panel-2022" role="experiencepanel" class="job-panel">
 									<h3 class="job-title">Software Enginer at Deloitte</h3>
 									<div class = "experience-details">
 										<p>Back end application developer at Analyst level</p>
@@ -226,29 +220,35 @@
 											<li>Currently working in the public sector for a large client, making application updates, rolling out new features, completing tech debt and fixing bugs.</li>
 										</ul>
 									</div>
-									<h3 class="job-title">I joined Makers Academy</h3>
+								</div>
+								<div class = "hidden job-panel" id="panel-2021" role="experiencepanel">
+									<h3 class="job-title">Makers Academy</h3>
 									<div class = "experience-details">
-										<p>16 week Software Engineering course with 10% acceptance rate</p>
+										<p>I left my role at Infopro Digital to join a 16 week Software Engineering course with 10% acceptance rate</p>
 										<ul>
 											<li>Agile, test driven development of weekly projects using RSPEC, Jest and Capybara</li>
 											<li>Built an AirBnB clone using Ruby and PostgreSQL</li>
-											<li>Built a lending and borrowing app as part of a team using a MERN stack.<li>
+											<li>Built a lending and borrowing app as part of a team using a MERN stack.</li>
 											<li>Daily pair programming using driver, navigator approach</li>
 										</ul>
 									</div>
-									<h3 class="job-title">Webinar producer and shadowing the front-end dev team at Infopro Digital</h3>
+									<h3 class="job-title">Shadowing the front-end dev team at Infopro Digital</h3>
 									<div class = "experience-details">
-										<p>I worked as a webinar producer for a B2B financial media publishing company. During this time, I asked the front-end dev team if I could shadow them once a week. My roles included: 
+										<p>Whilst working as a webinar producer, I worked with our front-end dev team, my roles included: 
 										<ul>
-											<li>Building registration landing pages using on24, making HTML and CSS updates</li>
-											<li>Writing surveys, conducting user-interviews and competitor analysis to identify ways to increase registration conversion. </li>	
-											<li>Broadcasting webinars and providing IT support for users and speakers</li>
-											<li>Shadowing front-end dev team - responding to tickets on redmine, making version controlled site updates</li>		
+											<li>Responding to tickets on redmine, making version controlled site updates</li>		
+											<li>Updating sprite images, compiling with Grunt</li>		
 										</ul>
 									</div>
 								</div>
-								<div class = "hidden job-panel" id="panel-2" role="experiencepanel">
-								<h3 class="job-title">Completed a UX design course at General Assembly</h3>
+								<div class = "hidden job-panel" id="panel-2019" role="experiencepanel">
+								<h3 class="job-title">Promoted to Webinar Producer at Infopro Digital</h3>
+									<ul>
+										<li>Recieved a promotion after increasing landing page registrations by 30%.</li>
+										<li>Writing surveys, conducting user-interviews and competitor analysis to identify ways to increase registration conversion. </li>	
+									</ul>
+
+								<h3 class="job-title">UX design course at General Assembly</h3>
 									<div class = "experience-details">
 										<p>I completed an immersive UX course at General Assembly. The course was structured from Monday to Saturday, 9am to 6pm and consisted of 3 design sprints leading up to a final project and presentation</p>
 										<ul>
@@ -260,35 +260,25 @@
 										</ul>
 									</div>
 								</div>
-								<div class = "hidden job-panel"   id="panel-3" role="experiencepanel">
-								<h3 class="job-title">Promoted to Webinar Producer at Infopro Digital</h3>
-									<div class = "experience-details">
-										<ul>
-											<li>After learning how to code through tutorials I found that I could improve our on24 registration pages.</li>
-											<li>I made CSS and HTML updates to registration pages. Adding features such as pop up user biographies.</li>
-										</ul>
-									</div>
-								</div>
-								<div class = "hidden job-panel"   id="panel-4" role="experiencepanel">
-									<h3 class="job-title">Started a side job as a freelance web designer</h3>
+								<div class = "hidden job-panel"   id="panel-2018" role="experiencepanel">
+									<h3 class="job-title">Freelance web designer</h3>
 									<div class = "experience-details">
 										<p>Outside of work, I started creating custom wordpress websites for small businesses and non-profits such as <a href="http://limehut.co.uk/" target="_blank">Limehut </a>and <a href="https://www.girlsonfilmldn.co.uk/" target="_blank">Girls on Film LDN</a>. </p>
 										<ul>
 											<li>Wireframing and testing</li>
-											<li>Installing wordpress themes, creating custom css changes</li>
+											<li>Installing wordpress themes, making custom features using CSS, javascript and jQuery</li>
 											<li>Maintaining and installing plug ins</li>
+
 										</ul>
 									</div>
 								</div>
-								<div class = "hidden job-panel"   id="panel-5" role="experiencepanel">
-									<h3 class="job-title">Started working at Infopro Digital as a Webinar Coordinator</h3>
+								<div class = "hidden job-panel"   id="panel-2016" role="experiencepanel">
+									<h3 class="job-title">Webinar Coordinator at Incisive Media (now Infopro Digital)</h3>
 									<div class = "experience-details">
-										<p> I was hired in an admin role at Incisive Media(now Infopro). The company is a B2B financial publication that houses several brands including Risk.net, Insurance Post and WatersTechnology.</p>
 										<ul>
 											<li>Booking in and scheduling webinars</li>
-											<li>Setting up basic registration forms using pre-existing templates</li>
-											<li>Making CSS updates</li>
-											<li>It was here that I became interested in coding and I began learning to code through code academy.</li>
+											<li>Building registration landing pages using On24 templates and updating with HTML and CSS.</li>
+											<li>Broadcasting webinars and providing IT support for users and speakers</li>
 										</ul>
 									</div>
 								</div>
