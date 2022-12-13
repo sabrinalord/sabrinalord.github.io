@@ -413,14 +413,14 @@ margin-top:1em;
 	    margin-bottom: 3em;
 }
 
-.radio-container input {
+.radio-year input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 
 }
 
-.radio-container{
+.radio-year{
 	position:relative;
 	width: 4em;
 	cursor: pointer;
@@ -433,7 +433,7 @@ margin-top:1em;
 
 }
 
-label.radio-container:after {
+label.radio-year:after {
  content: "";
     height: 2px;
     width: inherit;
@@ -458,7 +458,7 @@ background:#ffffff;
 	  visibility: hidden;
 	position:absolute;
 }
-.radio-container input:checked ~ .custom-bullet {
+.radio-year input:checked ~ .custom-bullet {
   background-color: #ffffff;
 }
 
@@ -587,7 +587,7 @@ footer a{
 		width: 150px;
 		margin-right: 3em;
 }
-	.radio-container {
+	.radio-year {
     width: 0;
     height: 6em;
 }
@@ -599,7 +599,7 @@ footer a{
     min-width: 700px;
     max-width: 750px;
 	}
-	label.radio-container:after {
+	label.radio-year:after {
     width: 2px;
     height: inherit;
     left: 7px;
