@@ -27,7 +27,7 @@ background: linear-gradient(180deg, #ffeeef 3%, #f8e2fd 48%, #ecaefb 80%);
 
 
 :root{
-	--primary-heading:#f75454;
+	--primary-heading:#000000;
 	--nav-links:#3e3e3e;
 	--secondary-purple:#a34bed;
 	--not-quite-black:#3e3e3e;
@@ -36,7 +36,7 @@ background: linear-gradient(180deg, #ffeeef 3%, #f8e2fd 48%, #ecaefb 80%);
 
 h1, h2 {
 	color: var(--primary-heading);
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h3 {
@@ -115,6 +115,21 @@ nav a:hover{
 
 svg.svg-inline--fa.fa-instagram.fa-w-14 {
 	width:25px;
+}
+
+
+/*--------------- ACCESSIBILITY ------------*/
+
+.screenreader-only{
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
 }
 
 /*--------------- MOBILE NAV ---------------*/
