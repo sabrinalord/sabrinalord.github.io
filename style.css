@@ -2,32 +2,20 @@
 
 body{
 	margin: 0 auto;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position:relative;
-	background: #6081ff;
-background: linear-gradient(180deg, #ffeeef 3%, #f8e2fd 48%, #ecaefb 80%);
-	
+	background: rgb(235,215,255);
+background: radial-gradient(circle, rgb(228, 221, 235) 0%, rgba(239,211,246,1) 13%, rgba(245,245,245,1) 41%, rgba(245,245,245,1) 82%);
+
 }
 
-
-/*--------------- BACKGROUNDS ---------------*/
-
-
-.wave-container{
-    background-image: url(images/site_backgrounds/long_white_wave.svg);
-    background-size: cover;
-    position: absolute;
-    z-index: -5;
-    bottom: 950px;
-    width: 100%;
-    height: 100vh;
-}
 
 /*--------------- TYPOGRAPHY & TYPE COLOURS ---------------*/
 
 
 :root{
-	--primary-heading:#000000;
+	--site-background:#fff2a4;
+	--primary-heading:#2b2b2b;
 	--nav-links:#3e3e3e;
 	--secondary-purple:#a34bed;
 	--not-quite-black:#3e3e3e;
@@ -36,7 +24,7 @@ background: linear-gradient(180deg, #ffeeef 3%, #f8e2fd 48%, #ecaefb 80%);
 
 h1, h2 {
 	color: var(--primary-heading);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h3 {
@@ -53,6 +41,7 @@ font-size:2em;
 	font-size: 2.8em;
 	color: var(--primary-heading);
     margin-bottom: -5px;
+	font-weight:600;
 }
 
 .job-title{
@@ -65,11 +54,12 @@ font-size:2em;
 .site-wrapper{
 margin-left:auto;
 margin-right:auto;
-max-width:1300px;
+max-width:1200px;
 }
 
+
 .section-container {
-margin: 2em;
+margin: 4em 2em 2em 0em;
 }
 
 
@@ -78,17 +68,15 @@ margin: 2em;
 
 header{
 height:5em;
+width:100%;
 }
 
 nav{
-	display:flex;
-	justify-content:space-between;
-	text-transform:uppercase;
 	position:fixed;
-	background:white;
+	background:#f5f5f5;
 	top:0;
 	left:0;
-	width:100%;
+	width:inherit;
 	padding:0em 1em;
 	z-index:10;	
 }
@@ -100,18 +88,32 @@ nav a{
     letter-spacing: 0.1em;
 }
 
-nav a:hover{
-	color: var(--secondary-purple);
-}
 
+.underline-animation {
+	display: inline-block;
+	position: relative;
+  }
+  
+  .underline-animation::after {
+	content: '';
+	position: absolute;
+	filter:blur(2px);
+	width: 100%;
+	transform: scaleX(0);
+	margin-top:5px;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(221, 0, 255);
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+  }
+  
+  .underline-animation:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+  }
 
-.logo{
-	padding-left:1em;
-	  letter-spacing: 0.1em;
-	    color: var(--nav-links);
-	   font-weight: 400;
-
-}
 
 svg.svg-inline--fa.fa-instagram.fa-w-14 {
 	width:25px;
@@ -180,6 +182,7 @@ svg.svg-inline--fa.fa-instagram.fa-w-14 {
 	list-style-type: none;
 	align-items:center;
 	padding-right:4em;
+	float: right;
 }
 
 
@@ -205,40 +208,22 @@ button.hamburger {
 
 /*--------------- INTRO SECTION ---------------*/
 
+.intro-content{
+	margin: 2em 3em;
+}
 
 .intro-container {
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-		
 }
 
 .intro-content p {
-	    max-width: 500px;
-    font-size: 1.3em;
+	font-weight: 300;
+    line-height: 1.3em;
+    font-size: 1.2em;
     color: var(--not-quite-black);
 }
-
-
-.hatbox{
-	display: none;
-}
-
-
-/*--------------- INTRO SECTION IMAGES ---------------*/
-
-
-.hatbox img {
-    height: 5rem;
-    margin: 0.8em;
-	cursor:grab;
-	z-index:9;
-	
-	
-}
-
-.hatbox img:active{
-cursor:grabbing}
 
 .headshot-container {
 	background-image: url("images/headshot.jpg");
@@ -253,6 +238,24 @@ cursor:grabbing}
 	transition: all 3s cubic-bezier(0.26, 1.48, 0.47, 0.96);
 	
 }
+
+.hatbox{
+	display: none;
+}
+
+
+.hatbox img {
+    height: 5rem;
+    margin: 0.8em;
+	cursor:grab;
+	z-index:9;
+	
+	
+}
+
+.hatbox img:active{
+cursor:grabbing}
+
 
 /*--------------- PROJECT SECTION ---------------*/
 
@@ -668,8 +671,8 @@ footer a{
 	.headshot-container{
 	min-width: 400px;
     right: 0;
-    top: 80px;
-	height: 600px;
+    top: 10px;
+	height: 470px;
 }
 	
 	.hatbox{
