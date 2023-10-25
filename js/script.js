@@ -14,5 +14,5 @@ hamburger.addEventListener('click', event => {
 
  $(function() {
     $( ".draggable" ).draggable();
-  } );
+  });
 	
