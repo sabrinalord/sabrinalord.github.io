@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+       "date":"March 2022 to current date",
+       "role":"Software Engineer at Deloitte",
+       "description":"Currently working with a large public sector client as a back-end developer. My role includes writing robust, production ready code for a high traffic application. My responsibilities include writing both back-end and front-end solutions, database updates, creation of Jenkins scripts and kubernetes checks. Recently I reviewed acessibility standards for the application and identified key areas for the teams current sprint.",
+       "additional":"Promoted in May 2023 from entry level to Consultant.",
+       "tools":"Scala, Kubernetes, PSQL, Javascript, Backbone.js, Jenkins"
+    }, 
+    {
+       "id": "2",
+       "date":"October 2021 to February 2022",
+       "role":"Software engineering student at Makers Academy",
+       "description":"I joined a 16 week intensive bootcamp for software engineering. Here I learnt how to build applications in an agile, test driven environment. I gained experience to testing frameworks RSPEC, Jest and Capybara. In teams of 5 developers we completed several weekly sprints including the creation of a simplified AirBnB app using Ruby and PostgreSQL. We also created a lending and borrowing app using MERN stack. ",
+       "additional":"",
+       "tools":"Ruby, Mongo, Express, React, Node"
+    },
+    {
+        "id": "3",
+        "date":"November 2016 - 2019",
+        "role":"Freelance web development",
+        "description":"To develop my coding skills and put out a facebook advert offering free web development. I started setting up websites using Wordpress, learning how to both make custom changes in php, how to update and install themes. As of today (2023) one of the first websites I made is still active at <a href='www.limehut.co.uk'>Limehut.co.uk. Although I'm no longer officially freelancing, I still enjoy setting up sites for friends and have recently set up <a href='www.tradeinformer.com'>TradeInformer.com</a>",
+        "additional":"",
+        "tools":"Wordpress, jQuery, HTML, CSS"
+     },
+    {
+        "id": "4",
+        "date":"April 2016 - October 2019",
+        "role":"Senior Webinar Producer at Infropro Digital",
+        "description":"I was responsible for the set up and recording of live webinars for UK, Asia and the US for a large financial publications Risk.net, InsurancePost and WatersTechnology. Although this was not initially a coding role, my interest in web development started here. After discovering I could update our registration pages using CSS, I started learning how to optimise conversion rates. ",
+        "additional":"I recieved a promotion after improving conversion rates by 30%.",
+        "tools":"HTML, CSS"
+     }
+]
+
