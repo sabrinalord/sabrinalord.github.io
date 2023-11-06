@@ -1,7 +1,7 @@
 
 
 body{
-	margin: 0 auto;
+	margin: 0 1em;
 	font-family: 'Montserrat', sans-serif;
 	position:relative;
 	background: #f5f5f5;
@@ -44,12 +44,6 @@ margin-left:auto;
 margin-right:auto;
 max-width:1200px;
 }
-
-
-.section-container {
-margin: 4em 2em 2em 0em;
-}
-
 
 
 /*--------------- NAVs ---------------*/
@@ -409,6 +403,10 @@ ul {
 	list-style:none; 
 }
 
+.timeline {
+	padding-left:0;
+}
+
 .timeline-wrapper {
     position: relative;
     display: flex;
@@ -419,6 +417,7 @@ ul {
 .bullet-container{
 	position: relative;
 	color:rgb(85, 85, 85);
+	margin-right: 1em;
 }
 
 .bullet-container::before {
@@ -524,44 +523,7 @@ footer a{
 	}
 /*	timeline section media query*/
 	
-	.timeline-container{
-    justify-content: unset;
-    width: 700px;
-    align-items: unset;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
-		flex-direction: row;
-	}
 
-	.experience-list {
-    flex-direction: column;
-		width: 150px;
-		margin-right: 3em;
-}
-	.radio-year {
-    width: 0;
-    height: 6em;
-}
-	.job-panel{
-		   margin-left: 3em;
-	}
-	
-	.panel-container {
-    min-width: 700px;
-    max-width: 750px;
-	}
-	label.radio-year:after {
-    width: 2px;
-    height: inherit;
-    left: 7px;
-    top: 0px;
-}
-	.year{
-		margin-left: 1.5em;
-		bottom: unset;
-	}
-	
 	/*	design section media query*/
 	.design-container{
 		display:unset;
