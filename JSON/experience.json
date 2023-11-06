@@ -4,9 +4,9 @@
         "year":"2023",
        "date":"March 2022 to current date",
        "role":"Software Engineer at Deloitte",
-       "description":"Currently working with a large public sector client as a back-end developer. My role includes writing robust, production ready code for a high traffic application. My responsibilities include writing both back-end and front-end solutions, database updates, creation of Jenkins scripts and kubernetes checks. Recently I reviewed acessibility standards for the application and identified key areas for the teams current sprint.",
+       "description":"I'm working with a large public sector client as a back-end developer. My role includes writing production ready code for what is set to be a high traffic application. My responsibilities include writing back-end and front-end solutions, making database updates, creation of Jenkins scripts and kubernetes checks. Recently I reviewed acessibility standards for the application and identified key areas for the teams current sprint.",
        "additional":"Promoted in May 2023 from entry level to Consultant.",
-       "tools":"Scala, Kubernetes, PSQL, Javascript, Backbone.js, Jenkins"
+       "tools":"Scala, jQuery, Javascript, Kubernetes, PSQL, Backbone.js, Jenkins"
     }, 
     {
        "id": "2",
