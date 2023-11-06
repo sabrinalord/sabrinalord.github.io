@@ -19,18 +19,25 @@ const loopThroughData = (data) => {
 
 
 const addExperienceCardToPage = (experience) => {
-    let experienceCard = document.createElement('div');
+    let experienceItem = document.createElement('li');
 
-    experienceCard.innerHTML = `
-                    <article class="job-panel">
-                    <h4>${experience.date}</h4>
-                    <h3>${experience.role}</h3>
-                    <p>${experience.description}</p>
-                    <p>${experience.additional}</p>
-                    <p>Tools used: ${experience.tools}</p>
-                </article>
+    experienceItem.innerHTML = `
+	                    
+							<div class="bullet-container">
+                                <i class="fa fa-circle"></i>
+                              ${experience.year}
+							</div>
+                            <article class="job-panel">
+                                <h4>${experience.date}</h4>
+                                <h3>${experience.role}</h3>
+                                <p>${experience.description}</p>
+                                <p>${experience.additional}</p>
+                                <p>Tools used: ${experience.tools}</p>
+                            </article>
+					
     `
-   document.getElementById("experience-container").appendChild(experienceCard) 
+    experienceItem.classList.add('experience-list-item')
+   document.getElementById("experience-list").appendChild(experienceItem) 
 
 }
 
