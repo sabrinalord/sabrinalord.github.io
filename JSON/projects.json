@@ -1,6 +1,14 @@
 [
     {
         "id": "1",
+        "title": "Weather Predictor",
+        "description": "A psuedo scientific weather predictor - predict the weather based on the last 10 years of weather data. Data is sourced from open-meteo, geocoding from rapidAPI. Made with React and deployed on Render.",
+        "imageDescription": "A screenshot of Sabrina's React weather predictor app",
+        "siteLink": "https://weather-predictor-mtsp.onrender.com/",
+        "codeLink": "https://github.com/sabrinalord/weatherPredictor"
+    },
+    {
+        "id": "2",
         "title": "Country App",
         "description": "A javascript country app using the REST countries API. Filter countries by population size, language or region. The map highlights to display the region and shows a card of statistics.",
         "imageDescription": "A screenshot of Sabrina's javascript country app",
@@ -8,20 +16,12 @@
         "codeLink": "https://github.com/sabrinalord/country-app.git"
     },
     {
-        "id": "2",
+        "id": "3",
         "title": "Activity Cat",
         "description": "An activity app using Bored API. Tell activity cat how many people there are and how much you would like to spend. The cat will reply with an idea.",
         "imageDescription": "A screenshot of the activity cat app using fetch and bored api",
         "siteLink": "https://sabrinalord.github.io/activity-app/",
         "codeLink": "https://github.com/sabrinalord/activity-app.git"
-    },
-    {
-        "id": "3",
-        "title": "To do App",
-        "description": "A mobile first, to do app built with React. Users can add new tasks, mark them as completed and remove tasks from the list.",
-        "imageDescription": "A screenshot of a React 'To Do' app",
-        "siteLink": "https://sabrinalord.github.io/todo-2/",
-        "codeLink": "https://github.com/sabrinalord/todo-2.git"
     },
     {
         "id": "4",

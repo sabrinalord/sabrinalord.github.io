@@ -12,9 +12,7 @@ body{
 
 
 :root{
-	--primary-heading:#2b2b2b;
-	--nav-links:#3e3e3e;
-	--secondary-purple:#a34bed;
+	--timeline-color: #a34bed;
 	--not-quite-black:#3e3e3e;
 	--mouse-x: 50%;
 	--mouse-y: 50%;
@@ -27,13 +25,13 @@ font-size:2em;
 
 .big-heading {
 	font-size: 2.8em;
-	color: var(--primary-heading);
+	color: var(--not-quite-black);
     margin-bottom: -5px;
 	font-weight:600;
 }
 
 .job-title{
-	color:var(--primary-heading)
+	color:var(--not-quite-black)
 }
 
 /*--------------- LAYOUT ---------------*/
@@ -65,7 +63,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: var(--nav-links);
+    color: var(--not-quite-black);
     margin-left: 5em;
     letter-spacing: 0.1em;
 }
@@ -286,7 +284,7 @@ cursor:grabbing}
     border: 1px solid #dcdcdc;
     background: #ffffff;
     margin: 0.8em;
-    width: 300px;
+	max-width: 350px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
@@ -307,16 +305,17 @@ cursor:grabbing}
 
 
 #project-card1 .project-img-container {
-	background-image:url(images/projects/countryApp_screenshot.png);
+		background-image:url(images/projects/weatherApp-screenshot.png);
 }
 
 #project-card2 .project-img-container {
+	background-image:url(images/projects/countryApp-screenshot.png);
+}
+
+#project-card3 .project-img-container {
 	background-image:url(images/projects/activity-cat.png)
 }
 
-#project-card3 .project-img-container  {
-	background-image:url(images/projects/todo-screenshot.png)
-}
 
 #project-card4 .project-img-container  {
 	background-image:url(images/projects/8ball.png)
@@ -416,7 +415,7 @@ ul {
 
 .bullet-container{
 	position: relative;
-	color:rgb(85, 85, 85);
+	color: var(--timeline-color);
 	margin-right: 1em;
 }
 
@@ -424,11 +423,12 @@ ul {
 	content: '';
 	position: absolute;
 	width: 5px;
-	background-color: rgb(85, 85, 85);
+	background-color: var(--timeline-color);
 	top: 1px;
 	left:5px;
 	z-index:-1;
 	bottom: -1px; 
+	box-shadow: 5px 5px 5px #bfbfbf;
   }
 
   .experience-list-item{
