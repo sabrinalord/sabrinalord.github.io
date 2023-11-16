@@ -22,7 +22,7 @@ const addProjectCardToPage = (project) => {
     let projectCard = document.createElement('div');
 
     projectCard.innerHTML = `
-        <article class = "project-card" id ="project-card${project.id}">
+        <article class = "project-card small-card" id ="project-card${project.id}">
             <a href="${project.siteLink}"  target="_blank">
                 <div role="img" aria-label = "${project.imageDescription}" class = "project-img-container"></div>
             </a>
