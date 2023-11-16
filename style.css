@@ -24,7 +24,7 @@ font-size:2em;
 }
 
 .big-heading {
-	font-size: 2.8em;
+	font-size: 1.8em;
 	color: var(--not-quite-black);
     margin-bottom: -5px;
 	font-weight:600;
@@ -521,13 +521,13 @@ footer a{
 		.intro-container {
 		flex-direction: row;
 	}
-	
+	.big-heading {
+		font-size: 2.8em;
+	}
 	.section-header{
 	margin: 2em 0em 2em 2em;
 	}
-/*	timeline section media query*/
 	
-
 	/*	design section media query*/
 	.design-container{
 		display:unset;
