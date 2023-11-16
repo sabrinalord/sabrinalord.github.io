@@ -200,7 +200,7 @@ button.hamburger {
 }
 
 .intro-content p {
-	font-weight: 300;
+	font-weight: 400;
     line-height: 1.3em;
     font-size: 1.2em;
     color: var(--not-quite-black);
@@ -520,6 +520,9 @@ footer a{
 @media (min-width:780px){
 		.intro-container {
 		flex-direction: row;
+	}
+	.intro-content p {
+		font-weight: 350;
 	}
 	.big-heading {
 		font-size: 2.8em;
