@@ -207,7 +207,7 @@ button.hamburger {
 }
 
 .headshot-container {
-	background-image: url("images/headshot.jpg");
+	background-image: url("images/headshot.avif");
     transform: translate3d(0px, 3px, 0px);
     margin-bottom: 30px;
     position: relative;
