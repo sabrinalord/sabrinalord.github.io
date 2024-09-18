@@ -421,6 +421,7 @@ ul {
 	position: relative;
 	color: var(--timeline-color);
 	margin-right: 1em;
+	display:none;
 }
 
 .bullet-container::before {
@@ -555,6 +556,10 @@ footer a{
 	
 .hamburger{
 		display:none;
+	}
+
+	.bullet-container{
+		display:block;
 	}
 	
 	.desktop-nav{
