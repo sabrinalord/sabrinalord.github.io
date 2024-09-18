@@ -307,34 +307,30 @@ cursor:grabbing}
 }
 	/*--------------- PROJECT CARD BG IMAGES---------------*/
 
-#project-card7 .project-img-container {
-		background-image:url(images/projects/tradeinformer.png);
-}
-
-
 #project-card6 .project-img-container {
-		background-image:url(images/projects/weatherApp-screenshot.png);
+		background-image:url(images/projects/tradeinformer.avif);
 }
+
 
 #project-card5 .project-img-container {
-	background-image:url(images/projects/countryApp-screenshot.png);
+		background-image:url(images/projects/weatherApp-screenshot.avif);
 }
 
 #project-card4 .project-img-container {
-	background-image:url(images/projects/activity-cat.png)
+	background-image:url(images/projects/countryApp-screenshot.avif);
 }
 
-
-#project-card3 .project-img-container  {
-	background-image:url(images/projects/8ball.png)
+#project-card3 .project-img-container {
+	background-image:url(images/projects/activity-cat.avif)
 }
+
 
 #project-card2 .project-img-container  {
-	background-image:url(images/projects/pacman-screenshot.png)
+	background-image:url(images/projects/pacman-screenshot.avif)
 }
 
 #project-card1 .project-img-container {
-	background-image:url(images/projects/murder-mystery-screenshot.png)
+	background-image:url(images/projects/murder-mystery-screenshot.avif)
 }
 
 
