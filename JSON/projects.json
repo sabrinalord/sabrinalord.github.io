@@ -1,22 +1,29 @@
 [
+   {
+        "id": "7",
+        "title": "TradeInformer.com",
+        "description": "Site set up using Wordpress, working on site performance and reducing page load times. Currently working on migrating this site to a headless CMS using Next.sjs and GraphQL.",
+        "imageDescription": "A screenshot of Sabrina's React weather predictor app",
+        "siteLink": "https://tradeinformer.com/"    },
+   
     {
-        "id": "1",
+        "id": "6",
         "title": "Weather Predictor",
         "description": "A psuedo scientific weather predictor - predict the weather based on the last 10 years of weather data. Data is sourced from open-meteo, geocoding from rapidAPI. Made with React and deployed on Render.",
-        "imageDescription": "A screenshot of Sabrina's React weather predictor app",
+        "imageDescription": "A screenshot of the React weather predictor app",
         "siteLink": "https://weather-predictor-mtsp.onrender.com/",
         "codeLink": "https://github.com/sabrinalord/weatherPredictor"
     },
     {
-        "id": "2",
+        "id": "5",
         "title": "Country App",
         "description": "A javascript country app using the REST countries API. Filter countries by population size, language or region. The map highlights to display the region and shows a card of statistics.",
-        "imageDescription": "A screenshot of Sabrina's javascript country app",
+        "imageDescription": "A screenshot of the Javascript country app",
         "siteLink": "https://sabrinalord.github.io/country-app/",
         "codeLink": "https://github.com/sabrinalord/country-app.git"
     },
     {
-        "id": "3",
+        "id": "4",
         "title": "Activity Cat",
         "description": "An activity app using Bored API. Tell activity cat how many people there are and how much you would like to spend. The cat will reply with an idea.",
         "imageDescription": "A screenshot of the activity cat app using fetch and bored api",
@@ -24,23 +31,23 @@
         "codeLink": "https://github.com/sabrinalord/activity-app.git"
     },
     {
-        "id": "4",
+        "id": "3",
         "title": "Magic 8 Ball",
         "description": "An interactive, responsive magic 8-ball with updated responses. Built with javascript and jQuery.",
-        "imageDescription": "A screenshot of Sabrina's javascript interactive magic 8 ball",
+        "imageDescription": "A screenshot of an interactive magic 8 ball",
         "siteLink": "https://sabrinalord.github.io/magic8ball/",
         "codeLink": "https://github.com/sabrinalord/magic8ball.git"
     },
     {
-        "id": "5",
+        "id": "2",
         "title": "Pacman",
         "description": "A pacman game made with javascript. There is a scoreboard, bonus points and the ghosts get scared when pacman eats an apple.",
-        "imageDescription": "A screenshot of Sabrina's javascript pacman game",
+        "imageDescription": "A screenshot of a Javascript pacman game",
         "siteLink": "https://sabrinalord.github.io/pacman/",
         "codeLink": "https://github.com/sabrinalord/pacman.git"
     },
     {
-        "id": "6",
+        "id": "1",
         "title": "Murder Mystery Invitation",
         "description": "A website invitation for a murder mystery Halloween party. Made with CSS3.",
         "imageDescription": "A screenshot of an interactive CSS3 envelope for a 1920s murder mystery party invitation.",
