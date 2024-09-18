@@ -4,7 +4,7 @@
         "year":"2023",
        "date":"March 2022 to present",
        "role":"Software Engineer at Deloitte",
-       "description":"Responsible for building, shipping and testing applications. Clients include a large public sector project, for what is set to be a high-traffic application. This involved providing back-end and front-end solutions and implementing best practices in accessibility. I have also worked on data migration of large quantities of data in the creation of a spring batch application where attention to detail was essential.",
+       "description":"Responsible for building, shipping and testing applications. Clients include a large public sector project for what is set to be a high-traffic application. This involved providing back-end and front-end solutions and implementing best practices in accessibility. I have also worked on data migration of large quantities of data in the creation of a Spring Batch application where attention to detail was essential.",
        "additional":"Promoted in May 2023 from entry level to Consultant.",
        "tools":"Scala, jQuery, Javascript, Kubernetes, SQL, Backbone.js, Jenkins, Java, SpringBatch"
     }, 
