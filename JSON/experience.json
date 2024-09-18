@@ -18,6 +18,15 @@
        "tools":"Ruby, Mongo, Express, React, Node"
     },
     {
+      "id": "3",
+      "year":"2020",
+      "date":"January",
+      "role":"UX Design student at General Assembly",
+      "description":"I enrolled in a 1 week intensive UX Design and Research course. During this time I received training in affinity mapping, app design, wireframing, prototyping and testing with the aim of improving the user journey.",
+      "additional":"",
+      "tools":"Figma"
+   },
+    {
         "id": "3",
         "year":"2019",
         "date":"November 2016 - 2019",
